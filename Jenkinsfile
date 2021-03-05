@@ -3,14 +3,7 @@ pipeline {
     tools {
     maven 'Maven3.6.3'
     }
-
-    stages {
-        stage('Commit Changes') {
-            steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/mathan811/DevOps-Demo-WebApp.git']]])
-            }
-        }
-    
+      
         stage ('Code Quality'){
             environment {
                 scannerhome = tool 'sonarqube'
