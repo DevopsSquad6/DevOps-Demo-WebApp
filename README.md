@@ -9,3 +9,4 @@ Trigger pipeline with webhook - test1 - 3/3
 Trigger pipeline with webhook - test2 - 3/3
 Trigger blueocean pipeline with webhook - test1 - 3/3
 Testing blueocean pipeline - test1 - 3/4
+Testing end-end integration (JIRA - PROD)
