@@ -3,7 +3,8 @@ pipeline {
     tools {
     maven 'Maven3.6.3'
     }
-      
+    
+    stages {	
         stage ('Code Quality'){
             environment {
                 scannerhome = tool 'sonarqube'
