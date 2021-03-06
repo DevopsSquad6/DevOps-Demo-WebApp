@@ -58,11 +58,11 @@ pipeline {
             }
         }
             
-        // stage('Performance Test'){
-        //     steps{
-        //       blazeMeterTest credentialsId: 'Blazemeter', testId: '9014533.taurus', workspaceId: '756606'
-        //     }
-        // }
+        stage('Performance Test'){
+             steps{
+               blazeMeterTest credentialsId: 'Blazemeter', testId: '9014533.taurus', workspaceId: '756606'
+             }
+        }
         
         stage('Deploy to Prod'){
             steps{
