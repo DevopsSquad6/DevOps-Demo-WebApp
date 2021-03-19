@@ -12,3 +12,4 @@ Testing blueocean pipeline - test1 - 3/4
 Testing end-end integration (JIRA - PROD)
 Testing end-end integration (JIRA - PROD) - Again
 case study - test1
+test case study
